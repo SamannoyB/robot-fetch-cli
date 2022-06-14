@@ -15,7 +15,7 @@ Instead, you can run the CLI based robot API by running:
 
 ``` robot [api-link-to-be-fetched] [file-name] node-fetch ```
 
---normal vs node-fetch:
+### --normal vs node-fetch:
 
 --normal flag is used to fetch APIs by the normal 
 fetch() javascript method.
