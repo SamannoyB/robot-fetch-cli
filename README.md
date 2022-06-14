@@ -1,6 +1,6 @@
 ﻿# robot-fetch-cli
 
-Run ``` npm I robot-fetch-cli ``` to install.
+Run ``` npm i robot-fetch-cli ``` to install.
 
 ## Usage
 
