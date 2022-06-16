@@ -1,0 +1,17 @@
+{
+  "name": "robot-fetch-cli",
+  "version": "1.2.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "robot": "renderer"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nanospinner": "^1.1.0"
+  }
+}

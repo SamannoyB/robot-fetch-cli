@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+html, body{
+    user-select: none;
+}
+
+body {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    user-select: none;
+}
+
+.blank_page {
+    max-height: 18cm;
+    max-width: 80%;
+    overflow: hidden;
+    background: #fff;
+    font-family: 'Poppins';
+    display: flex;
+    padding-left: 50px;
+    align-items: center;
+    justify-content: left;
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+}
+.blank_page img 
+{
+    max-height: 10cm;
+    max-width:17cm;
+}
+.blank_page pre {
+    height: 1.3cm;
+    width: 10cm;
+    background-color: #eee;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    cursor: pointer;
+}
+
+.blank_page pre:hover {
+    background-color: lightgreen;
+}
+
+.blank_page pre > code {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
